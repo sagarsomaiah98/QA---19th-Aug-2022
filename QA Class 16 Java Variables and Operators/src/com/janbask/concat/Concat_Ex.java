@@ -12,7 +12,7 @@ public class Concat_Ex {
 		
 		//Addition of two numbers 30 and 10 is 40
 		
-		System.out.println("Addition of two numbers "+ b+" and" +d+ "is "+ g);
+		System.out.println("Addition of two numbers "+ b+" and " +d+ "is "+ g);
 		
 
 	}
