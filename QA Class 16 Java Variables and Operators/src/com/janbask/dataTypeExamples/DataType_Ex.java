@@ -1,0 +1,38 @@
+package com.janbask.dataTypeExamples;
+
+public class DataType_Ex {
+
+	public static void main(String[] args) {
+		//Integer
+		//once the variable is defined for particular data type you cannot define it again
+		
+		int b=20;
+		int y=30;
+		
+		System.out.println("b");//b
+		System.out.println(b);//20
+		
+		System.out.println(y);//30
+		
+		 b=40;
+		
+		System.out.println(b);//40
+		b=y+b;
+		System.out.println(b);// 30 +40=70
+		y=b*y;
+		System.out.println(y);// 70 * 30=2100
+		System.out.println(b);// 70
+		b=10+b;
+		System.out.println(b);//10+70=80
+		y=b+y;
+		System.out.println(b);// 80
+		System.out.println(y);// 80+2100=2180
+		b=y-2*b;
+		System.out.println(b);// 2180-2*80= 2020
+		
+	
+		
+
+	}
+
+}
