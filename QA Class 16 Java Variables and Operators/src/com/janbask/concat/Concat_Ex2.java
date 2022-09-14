@@ -10,6 +10,7 @@ public class Concat_Ex2 {
 		
 		
 		// John whose age is 40 has salary income of 345.65 dollars
+		System.out.println(name+" whose age is "+age+" has salary income of "+salary+ " dollars");
 
 	}
 
