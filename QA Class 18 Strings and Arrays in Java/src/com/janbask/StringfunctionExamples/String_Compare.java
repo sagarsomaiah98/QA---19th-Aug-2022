@@ -9,26 +9,26 @@ public class String_Compare {
 		String s2="selenium";
 		String s3="Selenium";
 		
-		System.out.println(s1.compareTo(s2));
+		System.out.println(s1.compareTo(s2));//f
 		
-		System.out.println(s1.equals(s2));
+		System.out.println(s1.equals(s2));//f
 		
-		System.out.println(s1==s2);
+		System.out.println(s1==s2);//f
 		
-		System.out.println(s1.compareToIgnoreCase(s2));
+		System.out.println(s1.compareToIgnoreCase(s2));//t
 		
 		
 		System.out.println("****************************");
 
 		
 		
-		  System.out.println(s1.compareTo(s3));
+		  System.out.println(s1.compareTo(s3));//t
 		  
-		  System.out.println(s1.equals(s3));
+		  System.out.println(s1.equals(s3));//t
 		  
-		  System.out.println(s1==s3);
+		  System.out.println(s1==s3);//t
 		  
-		  System.out.println(s1.compareToIgnoreCase(s3));
+		  System.out.println(s1.compareToIgnoreCase(s3));//f
 		 
 		
 		

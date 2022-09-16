@@ -3,29 +3,26 @@ package com.janbask.ArrayExamples;
 public class Array_contains_userDefined {
 	
 	
-	public void array_contains() {
+
 		
+	
+
+	public static void main(String[] args) {
 		String[] stud= {"marks","steve","jenny","kevin"};
-         String name="kevin";
-		for(int i=0;i<4;i++) {
+        String name="kevin";
+		for(int i=0;i<stud.length;i++) {
 			
-			if(name.equals(stud[i]))
+			if(name==stud[i])
 				
 			
-			System.out.println("found");
+			System.out.println("found at index"+i);
 			else
 				System.out.println("not found");
 		}
 		
 	}
-
-	public static void main(String[] args) {
-		
-		Array_contains_userDefined u = new Array_contains_userDefined();
-		u.array_contains();
-		
 		
 
 	}
 
-}
+
