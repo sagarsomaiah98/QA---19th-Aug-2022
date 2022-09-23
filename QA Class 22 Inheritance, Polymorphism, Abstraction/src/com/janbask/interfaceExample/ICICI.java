@@ -34,6 +34,12 @@ System.out.println("ICICI OFFERS CREDIT CARD WITH 50$ FEE");
 		
 	}
 
+	@Override
+	public void method1() {
+		// TODO Auto-generated method stub
+		
+	}
+
 	
 
 }

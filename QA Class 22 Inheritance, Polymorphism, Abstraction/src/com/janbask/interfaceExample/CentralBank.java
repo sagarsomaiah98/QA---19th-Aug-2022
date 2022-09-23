@@ -11,7 +11,7 @@ public interface CentralBank {
 	
 	public void kyc();
 	
-	
+	public void method1() ;
 	
 
 }
