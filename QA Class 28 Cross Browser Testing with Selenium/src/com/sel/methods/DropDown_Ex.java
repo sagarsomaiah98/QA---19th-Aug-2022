@@ -18,7 +18,10 @@ public class DropDown_Ex {
 		
 		WebElement dropdown=driver.findElement(By.xpath("//select[@id='first']"));
 	
-		Select sel= new Select(dropdown);
+		//Select sel= new Select(dropdown);
+		
+		Select sel = new Select(driver.findElement(By.xpath("//select[@id='first']")));
+		
 		
 		/*
 		 * sel.selectByValue("Yahoo"); Thread.sleep(2000); sel.selectByIndex(0);
