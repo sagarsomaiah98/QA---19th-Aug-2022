@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 import com.sauce.pages.LoginPage;
 import com.sauce.pages.LogoutPage;
 import com.sauce.testbase.TestBase;
+import com.sauce.util.TestUtil;
 
 public class LogoutTest extends TestBase{
 	
@@ -20,11 +21,12 @@ public class LogoutTest extends TestBase{
 	}
 	
 	@Test
-	public void logout() {
+	public void logout() throws IOException {
 	LoginPage l = new LoginPage();
 	l.login("standard_user", "secret_sauce");
 	LogoutPage lo= new LogoutPage();
 	lo.logout();
+	TestUtil.Screenshot();
 		
 		
 		
